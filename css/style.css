@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Questrial', Arial, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 1.5;
     padding: 0;
@@ -12,7 +12,7 @@ body{
 
 /* Global */
 .container{
-   width: 80%;
+   width: 90%;
    margin: auto;
    overflow: hidden;
 }
@@ -24,16 +24,19 @@ ul{
 
 .button_1{
     background-color: #00dd00;
+    font-family: 'Questrial';
     height: 20px;
+    width: 200px;
     border: none;
     border-radius: 4px;
     color: #ffffff;
-    padding: 16px 32px;
+    padding: 18px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 0;
+    margin-top: 1px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
@@ -43,6 +46,7 @@ ul{
     background-color: #00dd00; 
     color: #000000; 
     border: 2px solid #ffffff;
+    float: right;
 }
     
 .button_1:hover{
@@ -69,19 +73,19 @@ header{
     min-height: 50px;
     border-bottom: #00ca00 3px solid;
     width: 100%;
-    position:fixed;
+    position: fixed;
     top: 0;
     left: 0;
 }.scroller {
-    height:300px; 
-    overflow:scroll;    
+    height: 300px; 
+    overflow: scroll;    
 }
 
 header a{
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
+    
 }
 
 header li{
@@ -97,12 +101,14 @@ header #branding{
 
 header #branding h1{
     margin: 0;
+    font-size: 30px;
 }
 
 header nav{
     float: left;
     margin-top: 10px;
     margin-left: 50px;
+    font-size: 16px;
 }
 
 header .highlight, header .current a{
@@ -134,7 +140,7 @@ header a:hover{
 }
 
 #showcase p{
-        font-size: 20px;
+    font-size: 20px;
 }
 
 
@@ -177,7 +183,7 @@ aside#sidebar{
     margin-top: 10px;
 }
 
-.twitter-timeline{  /* This is me trying to make the Twitter widget work with different sized windows, but kinda failed... */
+.twitter-timeline{
     width: auto;
 }
 
@@ -186,6 +192,7 @@ aside#sidebar{
 article#main-col{
     float: left;
     width: 65%;
+    margin-left: 50px;
 }
 
 
